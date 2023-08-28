@@ -1,7 +1,27 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(./Roboto/Roboto-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Robot";
+    src: url(./Roboto/Roboto-Bold.ttf);
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./Roboto/Roboto-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
 /* Defaulting everything */
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 /* 02.png */
 .header, .hero, .footer {
@@ -141,5 +161,5 @@ body {
     height: 100px;
     justify-content: center;
     align-items: center;
-    
+
 }
